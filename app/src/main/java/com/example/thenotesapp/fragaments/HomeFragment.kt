@@ -22,7 +22,7 @@ import com.example.thenotesapp.model.Note
 import com.example.thenotesapp.viewmodel.NoteViewModel
 
 
-class HomeFragment : Fragment(R.layout.fragment_home),SearchView.OnQueryTextListener,
+class HomeFragment : Fragment(R.layout.fragment_home), SearchView.OnQueryTextListener,
     MenuProvider {
 
     private var homeBinding: FragmentHomeBinding? = null

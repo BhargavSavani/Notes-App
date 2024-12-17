@@ -89,6 +89,7 @@ class EditNoteFragment : Fragment(R.layout.fragment_edit_note), MenuProvider {
                 deleteNote()
                 true
             }
+
             else -> false
         }
     }
